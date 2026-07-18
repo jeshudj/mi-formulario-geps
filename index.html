@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro Mantenimiento de geps</title>
+    <title>Consumo Gasolina de Geps</title>
     <style>
         * {
             box-sizing: border-box;
@@ -132,7 +132,7 @@
         <img src="generador2.png" alt="Generador Elite 8500EA" class="logo-superior">
     </div>
 
-    <h1>📋 REGISTRO DE MANTENIMIENTO DE GEPs</h1>
+    <h1>📋 CONSUMO GASOLINA DE GEPs</h1>
 
     <form id="formMantenimiento">
         <div class="form-group">
@@ -268,7 +268,7 @@ function alternarEdicionHoras() {
 
 function compartirRegistro() {
     const texto = `
-📋 *REGISTRO DE MANTENIMIENTO DE GEPs*
+📋 *CONSUMO GASOLINA DE GEPs*
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 *FECHA:* ${document.getElementById('fecha').value || 'Sin datos'}
 *CÓDIGO:* ${document.getElementById('codigo').value || 'Sin datos'}
@@ -345,7 +345,7 @@ function limpiarTodo() {
 
 function guardarRegistro() {
     const datos = `
-REGISTRO DE MANTENIMIENTO GEPs
+CONSUMO GASOLINA DE GEPs
 ===============================
 FECHA: ${document.getElementById('fecha').value}
 CÓDIGO: ${document.getElementById('codigo').value || 'Sin datos'}
